@@ -1,0 +1,4 @@
+go mod tidy
+go build
+./network-cli ping google.com
+./network-cli scan localhost 20 80
